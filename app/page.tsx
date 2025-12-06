@@ -92,14 +92,15 @@ export default function HomePage() {
               innovations.
             </li>
             <li>
-              <strong>Participant – ICpEP NCR Robotho(2023-2024)</strong> — As a
-              contestant in the ICpEP NCR Robothon, I represented my school in a
-              highly competitive regional event. I collaborated on thesis-based
-              robotics research and presented technical documentation that
-              emphasized innovation and practical application. This experience
-              allowed me to benchmark my skills against peers across the region,
-              strengthening my expertise in academic research, technical
-              communication, and engineering problem-solving.
+              <strong>Participant – ICpEP NCR Robothon(2023-2024)</strong> — As
+              a contestant in the ICpEP NCR Robothon, I represented my school in
+              a highly competitive regional event. I collaborated on
+              thesis-based robotics research and presented technical
+              documentation that emphasized innovation and practical
+              application. This experience allowed me to benchmark my skills
+              against peers across the region, strengthening my expertise in
+              academic research, technical communication, and engineering
+              problem-solving.
             </li>
             <li>
               <strong>
