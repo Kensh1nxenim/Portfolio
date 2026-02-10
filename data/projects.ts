@@ -17,4 +17,12 @@ export const projects: Project[] = [
     stack: ["React", "Remix", "Typescript", "Tailwind", "Node.js"],
     repo: "https://github.com/Kensh1nxenim/dictionary",
   },
+  {
+    slug: "better-todo-app",
+    title: "Better To Do App",
+    description:
+      "A fullstack todo application with a modular architecture, featuring real-time synchronization and a clean, responsive UI. Built with Next.js, NestJS, and PostgreSQL.",
+    stack: ["Next.js", "NestJS", "PostgreSQL", "Tailwind CSS", "TypeScript"],
+    repo: "https://github.com/Kensh1nxenim/xenim-todo-app",
+  },
 ];

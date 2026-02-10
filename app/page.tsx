@@ -24,28 +24,113 @@ export default function HomePage() {
       </Section>
 
       <Section
-        id="skills"
-        title="Skills"
-        subtitle="Tools and technologies I use."
+        id="education"
+        title="Education"
+        subtitle="Foundations and academic excellence."
       >
-        <div className="flex flex-wrap gap-3">
-          {[
-            "React",
-            "Next.js",
-            "TypeScript",
-            "Tailwind CSS",
-            "NestJS",
-            "Node.js",
-            "PostgreSQL",
-            "MySQL",
-            "SQLite",
-            "React Native (Expo)",
-            "TensorFlow",
-            "PyTorch",
-            "OpenCV",
-          ].map((s) => (
-            <SkillBadge key={s} label={s} />
-          ))}
+        <div className="card p-6">
+          <div className="flex flex-col md:flex-row justify-between items-start gap-4">
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-50">
+                Bachelor of Science in Computer Engineering
+              </h3>
+              <p className="text-primary font-medium">STI College Munoz-EDSA</p>
+              <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">
+                2022 — 2025
+              </p>
+            </div>
+            {/* <div className="bg-primary/5 dark:bg-primary/10 px-4 py-2 rounded-xl border border-primary/10">
+              <span className="text-primary font-semibold"></span>
+            </div>
+          </div>
+          <div className="mt-4 pt-4 border-t border-gray-100 dark:border-gray-800">
+            <p className="text-gray-600 dark:text-gray-400 text-sm italic">
+              
+            </p> */}
+          </div>
+        </div>
+        <div className="card p-6">
+          <div className="flex flex-col md:flex-row justify-between items-start gap-4">
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-50">
+                Bachelor of Science in Civil Engineering
+              </h3>
+              <p className="text-primary font-medium">Our Lady of Fatima University</p>
+              <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">
+                2021 — 2022
+              </p>
+            </div>
+            <div className="bg-primary/5 dark:bg-primary/10 px-4 py-2 rounded-xl border border-primary/10">
+              <span className="text-primary font-semibold"></span>
+            </div>
+          </div>
+          {/* <div className="mt-4 pt-4 border-t border-gray-100 dark:border-gray-800">
+            <p className="text-gray-600 dark:text-gray-400 text-sm italic">
+              
+            </p>
+          </div> */}
+        </div>
+      </Section>
+
+      <Section id="skills" title="Skills" subtitle="Technical toolkit.">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="space-y-4">
+            <h3 className="font-semibold text-gray-900 dark:text-gray-50 flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
+              Languages
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {[
+                "TypeScript",
+                "JavaScript",
+                "HTML/CSS",
+                "SQL",
+                "Python",
+                "C++",
+              ].map((s) => (
+                <SkillBadge key={s} label={s} />
+              ))}
+            </div>
+          </div>
+          <div className="space-y-4">
+            <h3 className="font-semibold text-gray-900 dark:text-gray-50 flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
+              Web & Backend
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {[
+                "React",
+                "Next.js",
+                "NestJS",
+                "Node.js",
+                "Tailwind CSS",
+                "Vite",
+                "Remix",
+              ].map((s) => (
+                <SkillBadge key={s} label={s} />
+              ))}
+            </div>
+          </div>
+          <div className="space-y-4">
+            <h3 className="font-semibold text-gray-900 dark:text-gray-50 flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
+              Data & Engineering
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {[
+                "PostgreSQL",
+                "MySQL",
+                "SQLite",
+                "React Native",
+                "TensorFlow",
+                "PyTorch",
+                "OpenCV",
+                "Git",
+              ].map((s) => (
+                <SkillBadge key={s} label={s} />
+              ))}
+            </div>
+          </div>
         </div>
       </Section>
 
@@ -57,7 +142,7 @@ export default function HomePage() {
         <div className="card p-6">
           <ul className="space-y-3 list-disc pl-6">
             <li>
-              <strong>Freelance Software Developer (2024-2025)</strong> —
+              <strong>Freelance Software Developer (2023-2025)</strong> —
               focused on backend services and API development using NestJS +
               PostgreSQL. Built small-scale web utilities and integrated
               third-party APIs.
@@ -75,7 +160,7 @@ export default function HomePage() {
       <Section
         id="achievements"
         title="Achievements"
-        subtitle="School and Outside School Competetions"
+        subtitle="School and Outside School Competitions"
       >
         <div className="card p-6">
           <ul className="space-y-3 list-disc pl-6">

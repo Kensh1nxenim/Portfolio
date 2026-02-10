@@ -18,11 +18,11 @@ export function ProjectCard({ project }: { project: Project }) {
         <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
       )}
       <div className="p-6 space-y-3">
-        <h3 className="text-xl font-semibold">{project.title}</h3>
-        <p className="text-gray-600">{project.description}</p>
+        <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-50">{project.title}</h3>
+        <p className="p">{project.description}</p>
         <div className="flex flex-wrap gap-2">
           {project.stack.map(s => (
-            <span key={s} className="px-2 py-1 text-sm rounded-lg bg-gray-100">{s}</span>
+            <span key={s} className="px-2 py-1 text-sm rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400">{s}</span>
           ))}
         </div>
         <div className="flex gap-4 pt-1">

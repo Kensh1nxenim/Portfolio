@@ -6,36 +6,41 @@ export function Hero() {
     <section className="section">
       <div className="container grid md:grid-cols-2 gap-10 items-center">
         <div className="space-y-6">
-          <h1 className="h1">
-            Hi, I’m <span className="text-primary">John Kenneth Barrameda</span>
-            .
-          </h1>
+          <div className="space-y-2">
+            <h1 className="h1">
+              Hi, I’m <span className="text-primary">John Kenneth Barrameda</span>
+            </h1>
+            <p className="text-xl md:text-2xl font-medium text-gray-500 dark:text-gray-400">
+              Computer Engineer
+            </p>
+          </div>
           <p className="p">
-            I’m a passionate computer engineering graduate with a strong
-            foundation in programming, web development, and database management.
+            A dedicated Computer Engineering graduate with a focus on building
+            robust full-stack applications and exploring the intersection of
+            software and intelligent systems.
           </p>
           <p className="p">
-            My journey has taken me from civil engineering into computer
-            engineering, where I discovered my true passion for building
-            technology solutions. With hands-on experience in web and mobile
-            development, I specialize in using tools such as React, NestJS,
-            PostgreSQL, and React Native to create clean and scalable
-            applications. I also explore artificial intelligence and machine
-            learning frameworks like TensorFlow and PyTorch to broaden my skill
-            set and challenge myself with emerging technologies.
+            I specialize in developing scalable web and mobile solutions using
+            <strong> React, Next.js, NestJS, and PostgreSQL</strong>. Beyond
+            application development, I have a deep interest in AI/ML frameworks
+            such as <strong>TensorFlow and PyTorch</strong>, applying computer
+            vision and classification models to solve complex engineering
+            challenges.
           </p>
-          <p className="p">
-            Whether working independently on freelance projects or collaborating
-            within a team, I thrive on solving problems through code and
-            continuously expanding my knowledge. My goal is to deliver impactful
-            digital solutions while growing into a well-rounded full-stack
-            developer.
+          <p className="p italic text-sm border-l-2 border-primary/20 pl-4 py-1">
+            Transitioned from Civil Engineering to Computer Engineering, driven
+            by a passion for logic, automation, and digital innovation.
           </p>
           <div className="flex items-center gap-3">
             <a href="#projects" className="btn btn-primary">
               View Projects <ArrowRight className="w-4 h-4" />
             </a>
-            <a href="/resume.pdf" className="btn btn-ghost">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-ghost"
+            >
               Download Resume
             </a>
           </div>
